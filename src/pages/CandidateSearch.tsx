@@ -52,12 +52,11 @@ const CandidateSearch = () => {
       await searchForUsers();
     }
   };
-
   // biome-ignore lint/correctness/useExhaustiveDependencies: Dependency array is correct
   useEffect(() => {
     searchForUsers();
     searchForSpecificUser(currentUser.login || '');
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
