@@ -19,10 +19,10 @@ const SavedCandidate = ({
               src={`${candidate.avatar_url}`}
               alt={`Profile of ${candidate.login}`}
               style={{
-                width: '70px',
-                borderRadius: '10px',
+                width: '100px',
+                borderRadius: '20px',
                 display: 'block',
-                margin: '0 auto',
+                margin: '2 auto',
               }}
             />
           </td>
@@ -49,10 +49,10 @@ const SavedCandidate = ({
             <IoRemoveCircle
               style={{
                 color: 'red',
-                margin: '0 auto',
+                margin: '4 auto',
                 display: 'block',
                 cursor: 'pointer',
-                fontSize: '50px',
+                fontSize: '45px',
               }}
               onClick={() => rejectCandidate(candidate.id || 0)}
             />
