@@ -15,3 +15,5 @@ This a tool for finding and comparing potential new hire candidates via github
     b) npm run build
     c) npm run start
 
+![Screenshot 2024-11-07 112024](https://github.com/user-attachments/assets/4ee20786-8e09-4755-86d1-7188ba99ce41)
+![Screenshot 2024-11-07 112102](https://github.com/user-attachments/assets/ec9403a6-94dd-4efa-83c7-14cb05d82c4a)
